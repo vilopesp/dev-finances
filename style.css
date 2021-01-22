@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400;1,700&display=swap');
+
+:root {
+  --dark-blue: #363f5f;
+  --header-gradient: linear-gradient(45deg, #a02cff, #36c2e6);
+  --blue: #a53afc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f0f2f5;
+}
+
+.container {
+  width: min(90vw, 800px);
+  margin: auto;
+}
+
+/* --- TITLES --- */
+
+h2 {
+  margin-top: 3.2rem;
+  margin-bottom: 0.8rem;
+  color: var(--dark-blue);
+  font-weight: normal;
+}
+
+/* --- HEADER --- */
+
+header {
+  background: var(--header-gradient);
+  padding: 2rem 0 10rem;
+  text-align: center;
+}
+
+header h1#logo {
+  color: #fff;
+  font-weight: 100;
+
+}
+
+/* --- BALANCE --- */
+
+main #balance {
+  margin-top: -8rem;
+}
+
+main #balance h2 {
+  color: white;
+  margin-top: 0;
+}
+
+/* --- CARDS --- */
+
+main #balance .card {
+  background: white;
+  padding: 1.5rem 2rem;
+  border-radius: .25rem;
+
+  margin-bottom: 2rem;
+  color: var(--dark-blue);
+}
+
+main #balance .card h3 {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+main #balance .card p {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-top: 1rem;
+}
+
+main #balance .card.total {
+  background-color: var(--blue);
+  color: white;
+}
+
+/* --- TABLE --- */
+
+main #transaction #data-table {
+  width: 100%;
+  border-spacing: 0 .5rem;
+  color: #7c8196;
+
+}
+
+main #transaction table tr th:first-child, 
+main #transaction table tr td:first-child {
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+main #transaction table th {
+  background: white;
+  font-weight: normal;
+  
+  padding: 1rem 2rem;
+  text-align: left;
+}
+
+main #transaction table tr:hover {
+  opacity: 1;
+}
+
+main #transaction table td {
+  background: white;
+
+  padding: 1rem 2rem;
+}
+
+main #transaction table td.description {
+  color: var(--dark-blue);
+}
+
+main #transaction table td.income {
+  color: #12a454;
+}
+
+main #transaction table td.expense {
+  color: #df2121;
+}
+
+/* --- FOOTER ---- */
+
+footer {
+  text-align: center;
+  padding: 4rem 0 2rem;
+  color: var(--dark-blue);
+  opacity: 0.6;
+}
+
+
+
+
+
