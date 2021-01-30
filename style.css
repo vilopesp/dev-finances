@@ -203,13 +203,13 @@ main #transaction table td .remove-icon:hover {
     align-items: center;
     justify-content: center;
 
-    opacity: 0;
-    visibility: hidden;
+    /* opacity: 0; */
+    /* visibility: visible; */
 }
 
 .modal-overlay.active {
-    opacity: 1;
-    visibility: visible;
+    /* opacity: 1; */
+    /* visibility: visible; */
 }
 
 .modal {
